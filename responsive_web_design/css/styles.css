@@ -126,7 +126,27 @@ footer {
 }
 
 @media (min-width: 1024px) {
-    
+    #container {
+        width: 65%;
+        margin:  20px auto;
+    }
+    nav li a {
+      background-color: darkslateblue; 
+      border: 0; 
+    }
+
+    #lower_area {
+        display: flex;
+    }
+
+    .col {
+        border: 2px solid darkslateblue;
+        padding:  10px;
+        margin: 10px;
+        border-radius: 12px;
+    }
 }
+
+
 
 
