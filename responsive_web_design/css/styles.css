@@ -1,2 +1,104 @@
-body {background-color: aliceblue;
+body {
+    background-color: aliceblue;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: indigo;
+    text-align: center;
+}
+#container {
+    background-color: lightgoldenrodyellow ;
+}
+
+nav {
+    background-color: mediumvioletred;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 2px solid gold; 
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: darkmagenta;
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: lightgrey;
+    color: darkmagenta;
+    border-color: darkmagenta;
+}
+
+main {
+    padding: 10px;
+}
+
+.col {
+    padding: 10px;
+    border-top: 2px solid darkblue;
+}
+
+footer {
+    background-color: blueviolet;
+    color: lightgrey;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    background-color: darkmagenta;
+    color: lightgrey;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid honeydew;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: blue;
+    border-color: green;
+}
+
+@media (min-width: 786px) {
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        width: 175px;
+        margin: 0 5px;
+        border-radius: 12px;
+        border: 2px solid gold;
+    }
 }
