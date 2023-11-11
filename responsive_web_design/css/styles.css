@@ -89,6 +89,13 @@ footer {
     border-color: lightgrey;
 }
 
+table {
+    border: lightgrey;
+}
+tr, td {
+    border: 4px solid lightgrey;
+}
+
 @media (min-width: 786px) {
     nav li {
         display: inline-block;
@@ -144,6 +151,10 @@ footer {
         padding:  10px;
         margin: 10px;
         border-radius: 12px;
+    }
+
+    .single_page { 
+        width: 100%;
     }
 }
 
