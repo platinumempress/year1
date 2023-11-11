@@ -86,7 +86,7 @@ footer {
 
 .button:hover {
     background-color: blue;
-    border-color: green;
+    border-color: lightgrey;
 }
 
 @media (min-width: 786px) {
@@ -101,4 +101,32 @@ footer {
         border-radius: 12px;
         border: 2px solid gold;
     }
+    main {
+        display: flex;
+    }  
+    section, aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid gold;
+        border-radius: 12px;
+    }
+    section {
+        width: 70%;
+    }
+    aside {
+        width: 30;
+    }
+    .col img {
+        width: 75%;
+    }
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
+@media (min-width: 1024px) {
+    
+}
+
+
