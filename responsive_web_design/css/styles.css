@@ -92,8 +92,10 @@ footer {
 table {
     border: lightgrey;
 }
-tr, td {
+tr,
+td {
     border: 4px solid lightgrey;
+    width: 50%;
 }
 
 @media (min-width: 786px) {
@@ -155,6 +157,11 @@ tr, td {
 
     .single_page { 
         width: 100%;
+    }
+
+    section img {
+       width: 75%;
+       
     }
 }
 
